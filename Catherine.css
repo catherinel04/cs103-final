@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Circular-Std", Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+
+body{
+    background-color: black;
+    height: 100%;
+    color: #F8C8DC;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    padding-left: 0;
+    flex-wrap: wrap;
+}
+
+
+nav li {
+    font-size: calc(2px + 1.5vw);
+    background-color: rgba(179,179,179, 0.5);
+    padding: 1% 3%;
+    border-radius: calc(10px + 1vw);
+    margin: 0.5%;
+}
+
+
+nav a {
+    text-decoration: none;
+}
+
+
+header h1, footer {
+    background-color: #121212;
+    padding: 2% 0;
+    text-align: center;
+}
+
+
+header h1 {
+    font-size: calc(4px + 4vw);
+}
+
+
+footer {
+    font-size: calc(2px + 1.5vw);
+}
+
+
+nav li a:visited, nav li a:active{
+    color: white;
+}
+
+
+img {
+    max-width: 80%
+}
+
+
+main h3{
+    background-color: pink;
+    color: #D95A8E;
+    padding: 1%;
+    font-size: calc(15px + 1vw);
+}
+
+main{
+    margin: calc(2px + 1vw) calc(20px + 2vw);
+    font-size: calc(2px + 1.5vw);
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+}
+
+/*ABOUT*/
+
+#about{
+    margin: calc(20px + 1vh) 0;
+}
+
+#about h4 {
+    margin: calc(20px + 2vh) 0;
+    text-align: center;
+    font-size: calc(10px + 2vw);
+    color: #D95A8E;
+}
+
+#about p{
+    margin: calc(10px + 1vh) 0;
+    text-align: center;
+}
+
+/*GENRES*/
+
+#genre{
+    margin: calc(20px + 1vh) 0;
+}
+#genre p{
+    margin: calc(10px + 1vh) 0;
+    text-align: center;
+}
+
+/*ARTISTS*/
+
+#artists{
+    margin: calc(20px + 1vh) 0;
+}
+#artists p{
+    margin: calc(10px + 1vh) 0;
+    text-align: center;
+}
+#artists ol{
+    margin: calc(20px + 1vh) calc(20px + 1vw);
+    padding: calc(10px + 1vh) calc(10px + 1vw);
+    border: solid #e876af 2px;
+    color: #D95A8E;
+    list-style-position: inside;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: calc(20px + 1vh) 0;
+    align-items: center;
+    width: 100%;
+}
+
+.text {
+    flex: 3;
+}
+
+.images {
+    flex: 2;
+}
+
+#artists img {
+    width: 100%;
+    object-fit: cover;
+
+}
+
+/*SONGS*/
+
+#songs{
+    margin: calc(20px + 1vh) 0;
+}
+#songs p{
+    margin: calc(10px + 1vh) 0;
+    text-align: center;
+}
+#songs ol{
+    margin: calc(20px + 1vh) calc(80px + 1vw);
+    padding: calc(10px + 1vh) calc(20px + 1vw);
+    border: solid #e876af 2px;
+    color: #D95A8E;
+    list-style-position: inside;
+}
+#songs iframe{
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+}
